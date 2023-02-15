@@ -53,4 +53,22 @@ export const robots = [
         username: 'Biju01',
         email: 'biju01@gmail.com'
     },
+    {
+        id: 10,
+        name: 'Babai Saha',
+        username: 'Babai01',
+        email: 'babai01@gmail.com'
+    },
+    {
+        id: 11,
+        name: 'Bubai Saha',
+        username: 'Bubai01',
+        email: 'bubai01@gmail.com'
+    },
+    {
+        id: 12,
+        name: 'Tubai Saha',
+        username: 'Tubai01',
+        email: 'tubai01@gmail.com'
+    },
 ]

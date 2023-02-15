@@ -1,12 +1,12 @@
 import React from 'react'
 import 'tachyons'
- function card(props) {
+ function Card({id,name,email}) {
   return (
     <div className='bg-light-blue dib pa3 ma2 tc br3 grow shadow-5'>
-        <img src={`https://robohash.org/${props.id}`} alt='robots'/>
+        <img src={`https://robohash.org/${id}`} alt='robots'/>
         <div>
-            <h2>{props.name}</h2>
-            <p>{props.email}</p>
+            <h2>{name}</h2>
+            <p>{email}</p>
         
         </div>
     </div>
@@ -15,4 +15,4 @@ import 'tachyons'
 }
 
 
-export default card
+export default Card
